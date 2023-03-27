@@ -1,0 +1,87 @@
+/* DOCUMENTO CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	height: 130px;
+	display: flex;
+    background-image: linear-gradient( to bottom, #ED1C24 80%, #950d15 );
+	justify-content: left;
+	align-items: center;
+	color: #fff;
+}
+header #logo {
+
+}
+header figure {
+	width: 300px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+header figure img {
+	width: 100%;
+}
+header h1 span {
+	font-size: 12px;
+	font-weight: 100;
+	margin-left: 10px;
+}
+header h1, p {
+	text-shadow: 1px 1px 5px black;
+	margin-bottom: 10px;
+}
+main {
+	display: flex;
+	justify-content: space-around;
+	padding: 50px;
+	flex-wrap: wrap;
+}
+.boxaluno {
+	width: 190px;
+	height: 220px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #a4a4a4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-image: linear-gradient( to bottom right, #ED1C24 60%, #950d15 ); 
+	margin:0 10px 40px 10px;
+
+}
+.boxaluno figure {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+
+}
+.boxaluno figure img {
+	width: 100%;
+	border-radius:100%;
+
+}
+.boxaluno h2{
+	text-shadow: 1px 1px 5px black;
+	color: #FFF;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+}
+.boxaluno:hover {
+	box-shadow: 5px 5px 10px yellow;
+
+}
+
+footer {
+	height: 50px;
+background-image: linear-gradient( to bottom, #ED1C24 60%, #950d15 ); 
+text-align: center;
+padding-top: 20px;
+color: white;
+font-style: italic;
+}
