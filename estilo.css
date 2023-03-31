@@ -43,7 +43,7 @@ main {
 }
 .boxaluno {
 	width: 190px;
-	height: 300px;
+	height: 350px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px #a4a4a4;
 	display: flex;
@@ -124,7 +124,17 @@ font-style: italic;
 	height: 30px;
 	border-radius: 4px;
 	background: linear-gradient(to bottom,#37bc16,#33991a);
+	margin-bottom: 10px;
 }
 .boxaluno button:hover {
 	font-weight: 700;
+}
+.boxaluno .btlivraria {
+	color: black;
+	background-image: none;
+	background-color: gray;
+}
+.boxaluno .btlivraria:hover {
+	font-weight: 300;
+	cursor: default;
 }
