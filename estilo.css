@@ -43,7 +43,7 @@ main {
 }
 .boxaluno {
 	width: 190px;
-	height: 220px;
+	height: 300px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px #a4a4a4;
 	display: flex;
@@ -71,6 +71,8 @@ main {
 	text-align: center;
 	font-size: 16px;
 	font-weight: 300;
+	height: 100px;
+
 }
 .boxaluno:hover {
 	box-shadow: 5px 5px 10px yellow;
@@ -103,4 +105,26 @@ font-style: italic;
 	width: 100%;
 	border-radius:100%;
 
+}
+.boxaluno p{
+	margin: 0px 70px 10px 0;
+	color: white;
+	font-size: 14px;
+	font-weight: none;
+}
+.boxaluno a{
+	text-decoration: none;
+}
+.boxaluno button {
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	font-weight: 300;
+	color: white;
+	height: 30px;
+	border-radius: 4px;
+	background: linear-gradient(to bottom,#37bc16,#33991a);
+}
+.boxaluno button:hover {
+	font-weight: 700;
 }
