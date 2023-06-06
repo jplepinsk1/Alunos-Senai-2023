@@ -44,13 +44,13 @@ main {
 }
 .boxaluno {
 	width: 190px;
-	height: 350px;
+	min-height: 350px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px #a4a4a4;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
 	background-image: linear-gradient( to bottom right, #ED1C24 60%, #950d15 ); 
 	margin:0 10px 40px 10px;
 
@@ -72,7 +72,7 @@ main {
 	text-align: center;
 	font-size: 16px;
 	font-weight: 300;
-	height: 100px;
+	height: 50px;
 
 }
 .boxaluno:hover {
@@ -130,7 +130,7 @@ font-style: italic;
 .boxaluno button:hover {
 	font-weight: 700;
 }
-.boxaluno .btlivraria {
+.boxaluno .btdisable {
 	color: black;
 	background-image: none;
 	background-color: gray;
