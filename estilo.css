@@ -1,4 +1,7 @@
 /* DOCUMENTO CSS */
+html {
+	scroll-behavior: smooth;
+  }
 
 * {
 	margin: 0;
@@ -10,9 +13,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
-header #logo {
 
-}
 header {
 	padding-top: 10%;
 	width: 100%;
@@ -158,7 +159,13 @@ font-style: italic;
 	font-weight: 300;
 	cursor: default;
 }
-
+.backtotop {
+	margin-bottom: 1%;
+	width: 100%;
+	text-align: center;
+	color: #950d15;
+	
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -195,5 +202,9 @@ header figure img {
 	font-size: 1.4rem;
 
  }
+ .backtotop {
+	margin-bottom: 3%;
+	font-size: 1.4rem;
+}
 
 }
