@@ -3,25 +3,33 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
+
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
+header #logo {
+
+}
 header {
+	padding-top: 10%;
+	width: 100%;
 	height: 130px;
 	display: flex;
     background-image: linear-gradient( to bottom, #ED1C24 80%, #950d15 );
 	justify-content: left;
 	align-items: center;
 	color: #fff;
+	padding: 10px;
+	
 }
-header #logo {
 
-}
 header figure {
-	width: 300px;
-	margin-left: 100px;
-	margin-right: 50px;
+	width: 20%;
+	margin-left: 10%;
+	margin-right: 4%;
 }
 header figure img {
 	width: 100%;
@@ -31,23 +39,32 @@ header h1 span {
 	font-weight: 100;
 	margin-left: 10px;
 }
-header h1, p {
+header h1 {
+	font-size: 1.8rem;
 	text-shadow: 1px 1px 5px black;
 	margin-bottom: 10px;
 }
+header p {
+	font-size: 16px;
+	text-shadow: 1px 1px 5px black;
+	margin-bottom: 10px;
+}
+
 main {
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	padding: 50px;
+	padding: 5%;
 	flex-wrap: wrap;
-
 }
+
 .boxaluno {
-	width: 190px;
+	width: 250px;
 	min-height: 350px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px #a4a4a4;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px 20px 10px 20px;
@@ -70,10 +87,9 @@ main {
 	text-shadow: 1px 1px 5px black;
 	color: #FFF;
 	text-align: center;
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: 300;
 	height: 50px;
-
 }
 .boxaluno:hover {
 	box-shadow: 5px 5px 10px yellow;
@@ -81,6 +97,7 @@ main {
 }
 
 footer {
+	width: 100%;
 	height: 50px;
 background-image: linear-gradient( to bottom, #ED1C24 60%, #950d15 ); 
 text-align: center;
@@ -88,6 +105,7 @@ padding-top: 20px;
 color: white;
 font-style: italic;
 }
+
 .boxprof {
 	width: 240px;
 	height: 250px;
@@ -139,4 +157,43 @@ font-style: italic;
 .boxaluno .btlivraria:hover {
 	font-weight: 300;
 	cursor: default;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.boxaluno {width: 100%;}
+	header {width: 100%;
+		flex-direction: column; 
+		height: 250px;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		padding: 5%;
+	
+	}
+	header figure {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;	
+}
+header figure img {
+	width: 100%
+}
+ main {
+	margin: 10px auto;
+	padding-left:  20px;
+	justify-content: center;
+ }
+.boxaluno h2 {
+	font-size: 1.3rem;
+ margin-bottom: 5%;
+}
+ .boxaluno button {
+	width: 250px;
+	height: 70px;
+	font-size: 1.4rem;
+
+ }
+
 }
